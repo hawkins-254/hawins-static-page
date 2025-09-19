@@ -334,6 +334,9 @@ code {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+  .showcase .grid {
+    overflow: visible;
+  }
 
   .showcase {
     height: auto;
@@ -394,6 +397,18 @@ code {
   
   .showcase-form {
     width: 300px;
+  }
+  .showcase .grid {
+    overflow: visible;
+  }
+  .footer {
+    flex-direction: row;
+  }
+  .footer .grid {
+    overflow: visible;
+  }
+  .features-head .grid {
+    overflow: visible;
   }
 
 }
