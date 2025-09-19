@@ -44,10 +44,8 @@ img {
   width: 100%;
 }
 
-code,
-pre {
-  background: #333;
-  color: #fff;
+code {
+  border-left: 10px solid #333;
   padding: 10px;
 }
 
